@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40d23583-69c2-4715-87e6-531a4a6b09cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/src/main/java/org/dearbinge/client/test/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/src/main/java/com/dearbinge/data/api/SecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/src/main/java/com/dearbinge/data/domain/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/src/main/java/com/dearbinge/data/domain/ParkingBasicDataSyncResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/src/main/java/com/dearbinge/data/pojo/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/dao/SecurityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/register/mainloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/service/impl/SecurityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/com/dearbinge/data/mapping/SecurityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/dubbo-services.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/dubbo-spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/jdbc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/openapi/HttpSessionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/openapi/ParkingSpotDataTrans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/service/InfrastructDeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/service/impl/ParkingBasicDataSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/java/org/dearbinge/openapi/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/resources/dubbo-services.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-security/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-security/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-security/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-security/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-security/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-security/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-security/src/main/java/com/dearbinge/security/interceptor/UserSecurityInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-security/src/main/resources/dubbo-services.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-utils/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-utils/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-utils/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-utils/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-utils/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-utils/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/ReturnCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/dearbinge-data-provider/target/" />
+    <ignored path="$PROJECT_DIR$/dearbinge-data-api/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dearbinge-security/target/" />
+    <ignored path="$PROJECT_DIR$/dearbinge-data-domain/target/" />
+    <ignored path="$PROJECT_DIR$/dearbinge-utils/target/" />
+    <ignored path="$PROJECT_DIR$/dearbinge-openapi/target/" />
+    <ignored path="$PROJECT_DIR$/dearbinge-client-test/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dearbinge-parent" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/service/impl/SecurityServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dearbinge-security/src/main/resources/dubbo-services.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/openapi/ParkingSpotDataTrans.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dearbinge-security/src/main/java/com/dearbinge/security/interceptor/UserSecurityInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>parkingSpotDataTrans</find>
+      <find>enableRedisKeyspaceNotificationsInitializer</find>
+      <find>securityService</find>
+      <find>maxActive</find>
+      <find>UserSecurityInterceptor</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dearbinge-security/src/main/java/com/dearbinge/security/interceptor/UserSecurityInterceptor.java" />
+        <option value="$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/service/impl/ParkingBasicDataSync.java" />
+        <option value="$PROJECT_DIR$/dearbinge-openapi/src/main/resources/dubbo-services.xml" />
+        <option value="$PROJECT_DIR$/dearbinge-openapi/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/dearbinge-openapi/src/main/java/org/dearbinge/openapi/App.java" />
+        <option value="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/dubbo-spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/service/impl/SecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/jdbc" />
+        <option value="$PROJECT_DIR$/dearbinge-client-test/src/main/java/org/dearbinge/client/test/App.java" />
+        <option value="$PROJECT_DIR$/dearbinge-data-api/readme.txt" />
+        <option value="$PROJECT_DIR$/dearbinge-security/src/main/resources/dubbo-services.xml" />
+        <option value="$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/ReturnCode.java" />
+        <option value="$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/openapi/ParkingSpotDataTrans.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
+    <option name="y" value="6" />
+    <option name="width" value="1346" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-data-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-openapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-openapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dearbinge-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-spring-boot-mybatis-redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dearbinge-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../intelliJ_IDEA_Workspace/testmaven" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dearbinge.client.test.App" />
+      <module name="dearbinge-client-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dearbinge.client.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dearbinge.openapi.App" />
+      <module name="dearbinge-openapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dearbinge.openapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40d23583-69c2-4715-87e6-531a4a6b09cf" name="Default Changelist" comment="" />
+      <created>1561704016503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561704016503</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4973262" visible="true" weight="0.2624811" />
+      <window_info id="Structure" order="6" sideWeight="0.5026738" side_tool="true" weight="0.25340393" />
+      <window_info id="Favorites" order="7" sideWeight="0.5026738" side_tool="true" weight="0.25340393" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18688525" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.12765957" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.24962178" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4973262" visible="true" weight="0.1913767" />
+      <window_info id="Structure" order="6" sideWeight="0.5026738" side_tool="true" weight="0.25340393" />
+      <window_info id="Favorites" order="7" sideWeight="0.5026738" side_tool="true" weight="0.25340393" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.36006546" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.12765957" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1082">
+          <caret selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/ReferenceConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE.jar!/org/springframework/web/servlet/config/spring-mvc-4.0.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.1.1.RELEASE/spring-session-1.1.1.RELEASE.jar!/org/springframework/session/data/redis/config/annotation/web/http/RedisHttpSessionConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="160" column="60" selection-start-line="160" selection-start-column="17" selection-end-line="160" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3.jar!/redis/clients/jedis/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.3/jedis-2.7.3.jar!/redis/clients/util/Pool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1274">
+          <caret line="361" column="14" selection-start-line="361" selection-start-column="14" selection-end-line="361" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/resources/dubbo-services.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="80" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.4.RELEASE/spring-beans-4.2.4.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="304" selection-start-line="304" selection-end-line="304" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/jdbc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/com/dearbinge/data/mapping/SecurityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1539" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/dao/SecurityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-api/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-client-test/src/main/java/org/dearbinge/client/test/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-api/src/main/java/com/dearbinge/data/api/SecurityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/dubbo-services.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-domain/target/maven-archiver/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/RandomUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-430">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/dubbo-spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-domain/src/main/java/com/dearbinge/data/domain/ErrorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-domain/src/main/java/com/dearbinge/data/domain/ParkingBasicDataSyncResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-domain/src/main/java/com/dearbinge/data/pojo/Security.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="336" column="7" lean-forward="true" selection-start-line="336" selection-start-column="7" selection-end-line="336" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/ReturnCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-security/src/main/java/com/dearbinge/security/interceptor/UserSecurityInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/java/org/dearbinge/openapi/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/register/mainloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/service/impl/SecurityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/service/InfrastructDeal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/openapi/HttpSessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-security/src/main/resources/dubbo-services.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/service/impl/ParkingBasicDataSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/openapi/ParkingSpotDataTrans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>dearbinge-openapi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
