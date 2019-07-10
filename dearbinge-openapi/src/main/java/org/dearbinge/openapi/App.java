@@ -3,6 +3,7 @@ package org.dearbinge.openapi;
 import org.springframework.boot.SpringApplication;
 
 import com.dearbinge.openapi.ParkingSpotDataTrans;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @ComponentScan("com.dearbinge.*")

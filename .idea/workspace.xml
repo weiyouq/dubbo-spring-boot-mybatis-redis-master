@@ -2,97 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40d23583-69c2-4715-87e6-531a4a6b09cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-client-test/src/main/java/org/dearbinge/client/test/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-api/src/main/java/com/dearbinge/data/api/SecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/src/main/java/com/dearbinge/data/domain/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/src/main/java/com/dearbinge/data/domain/ParkingBasicDataSyncResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-domain/src/main/java/com/dearbinge/data/pojo/Security.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/dao/SecurityMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/register/mainloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/service/impl/SecurityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/com/dearbinge/data/mapping/SecurityMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/dubbo-services.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/dubbo-spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/jdbc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/openapi/HttpSessionConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/openapi/ParkingSpotDataTrans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/service/InfrastructDeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/service/impl/ParkingBasicDataSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/java/org/dearbinge/openapi/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/resources/dubbo-services.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-security/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-security/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-security/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-security/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-security/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-security/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-security/src/main/java/com/dearbinge/security/interceptor/UserSecurityInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-security/src/main/resources/dubbo-services.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-utils/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-utils/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-utils/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-utils/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-utils/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-utils/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-utils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/RandomUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/ReturnCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dearbinge-openapi/src/main/java/org/dearbinge/openapi/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/dearbinge-openapi/src/main/java/org/dearbinge/openapi/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/dearbinge-data-provider/target/" />
@@ -117,38 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/service/impl/SecurityServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dearbinge-security/src/main/resources/dubbo-services.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/openapi/ParkingSpotDataTrans.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dearbinge-security/src/main/java/com/dearbinge/security/interceptor/UserSecurityInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="342">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -162,13 +49,28 @@
       <find>securityService</find>
       <find>maxActive</find>
       <find>UserSecurityInterceptor</find>
+      <find>tomcat-embed-core</find>
+      <find>spring-core</find>
+      <find>spring-version</find>
+      <find>rabbitmq-version</find>
+      <find>&gt;tomcat-embed-core</find>
+      <find>project.version</find>
+      <find>com.zte-its</find>
+      <find>tomcat-embed-core-version</find>
+      <find>spring-boot-version</find>
+      <find>parent</find>
+      <find>servlet_version</find>
     </findStrings>
     <replaceStrings>
+      <replace>servlet_version</replace>
       <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -177,7 +79,6 @@
         <option value="$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/service/impl/ParkingBasicDataSync.java" />
         <option value="$PROJECT_DIR$/dearbinge-openapi/src/main/resources/dubbo-services.xml" />
         <option value="$PROJECT_DIR$/dearbinge-openapi/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/dearbinge-openapi/src/main/java/org/dearbinge/openapi/App.java" />
         <option value="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/dubbo-spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/dearbinge-data-provider/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/service/impl/SecurityServiceImpl.java" />
@@ -187,6 +88,8 @@
         <option value="$PROJECT_DIR$/dearbinge-security/src/main/resources/dubbo-services.xml" />
         <option value="$PROJECT_DIR$/dearbinge-utils/src/main/java/com/dearbinge/utils/ReturnCode.java" />
         <option value="$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/openapi/ParkingSpotDataTrans.java" />
+        <option value="$PROJECT_DIR$/dearbinge-openapi/src/main/java/org/dearbinge/openapi/App.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -202,8 +105,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -517,6 +420,14 @@
       <option name="presentableId" value="Default" />
       <updated>1561704016503</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1562052582326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562052582327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -527,15 +438,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4973262" visible="true" weight="0.2624811" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4973262" visible="true" weight="0.2700454" />
       <window_info id="Structure" order="6" sideWeight="0.5026738" side_tool="true" weight="0.25340393" />
       <window_info id="Favorites" order="7" sideWeight="0.5026738" side_tool="true" weight="0.25340393" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18688525" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3065574" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.12765957" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
@@ -580,14 +491,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1082">
-          <caret selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/ReferenceConfig.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -597,13 +505,6 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.4.RELEASE/spring-webmvc-4.2.4.RELEASE.jar!/org/springframework/web/servlet/config/spring-mvc-4.0.xsd">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/session/spring-session/1.1.1.RELEASE/spring-session-1.1.1.RELEASE.jar!/org/springframework/session/data/redis/config/annotation/web/http/RedisHttpSessionConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -802,19 +703,7 @@
     <entry file="file://$PROJECT_DIR$/dearbinge-security/src/main/java/com/dearbinge/security/interceptor/UserSecurityInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/java/org/dearbinge/openapi/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -825,17 +714,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/service/impl/SecurityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/service/InfrastructDeal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1536">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-security/src/main/resources/dubbo-services.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -846,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dearbinge-security/src/main/resources/dubbo-services.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/service/impl/ParkingBasicDataSync.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -860,10 +749,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/java/org/dearbinge/openapi/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.0.30/tomcat-embed-core-8.0.30.jar!/org/apache/tomcat/util/net/NioSelectorPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dearbinge-openapi/src/main/java/com/dearbinge/openapi/ParkingSpotDataTrans.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="91" column="13" lean-forward="true" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-openapi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dearbinge-data-provider/src/main/java/com/dearbinge/data/service/impl/SecurityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
